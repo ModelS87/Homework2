@@ -40,6 +40,14 @@ public class Main {
         System.out.println("Разница между весами бойцов " + differency);
         var differency1 = weight2Fighter % weight1Fighter;
         System.out.println("Разница весов бойцов " + differency1 + " кг ");
+        var hours = 640;
+        var workersHours = 8;
+        var workers = hours / workersHours;
+        System.out.println("Всего работников в компании - " + workers + " человек");
+        workers = workers + 94;
+        hours = hours / workers;
+        System.out.println("Если в компании работает " + workers + " человека, то всего " + hours + " часа работы может быть поделено между сотрудниками");
+
 
 
     }
